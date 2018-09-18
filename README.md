@@ -14,23 +14,33 @@ It has it's own virtual environment, that will be automatically setup for you
 once you enter it with:
 
 ```
-mulle-sde q3vm-objc-example
+$ mulle-sde q3vm-objc-example
 ```
 
 Now you can let **mulle-sde** fetch the required dependencies and build the 
 project for you:
 
 ```
-mulle-sde craft
+$ mulle-sde craft --debug
 ```
 
 ## Additional requirement
 
-Check out `https://github.com/jnz/q3vm`  alongside it and `make` it:
+See that [q3vm]((https://github.com/jnz/q3vm) is checked out alongside `q3vm-objc-example` and build it:
 
 ```
 $ ls
 q3vm
 q3vm-objc-example
+$ cd q3vm ; make
+```
+
+## Run
+
+```
+$ cd q3vm-objc-example/qvm-src
+$ mkdir build
+$ make
+$ ../build/Debug/q3vm-objc-example ./call-objc.qvm
 ```
 
