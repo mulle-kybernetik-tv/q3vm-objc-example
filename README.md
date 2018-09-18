@@ -26,7 +26,7 @@ $ mulle-sde craft --debug
 
 ## Additional requirement
 
-See that [q3vm]((https://github.com/jnz/q3vm) is checked out alongside `q3vm-objc-example` and build it:
+See that [q3vm](https://github.com/jnz/q3vm) is checked out alongside `q3vm-objc-example` and build it:
 
 ```
 $ ls
