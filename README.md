@@ -1,7 +1,9 @@
 # q3vm-objc-example
 
 This is a small demo project, that demonstrates calling Objective-C from
-within the Q3VM.
+within the [Q3VM](https://github.com/jnz/q3vm).
+
+The Q3VM files vm.h and vm.c have their own license.
 
 
 ## How to build
